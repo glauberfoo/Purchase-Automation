@@ -7,20 +7,14 @@ Como comprador, iniciar uma cotação.
     Dado que eu esteja como add-n da Shopper aberto
 
     @automatizado @negativo
-    Cenário: Iniciar uma cotação
-    Quando clico em criar cotação
+    Cenário: Iniciar uma cotação para um FC que já tem uma cotação em aberto
+    Quando clico em atualizar cotação
+    E verifico se já existe uma cotação em aberto para o "FC1 - Osasco"
+    E clico em criar cotação
     E seleciono o FC "FC1 - Osasco" que desejo
     E seleciono os fornecedores que desejo enviar os produtos para cotação
-    E Enviar Cotação
-    Então aguardo o sistema retornar com a mensagem de que já existe uma cotação em aberto para aquele FC
-
-    @automatizado @negativo
-    Cenário: Iniciar uma cotação
-    Quando clico em criar cotação
-    E seleciono o FC "FC1 - Osasco" que desejo
-    E seleciono os fornecedores que desejo enviar os produtos para cotação
-    E Enviar Cotação
-    Então aguardo o sistema retornar com uma lista de fornecedores que não tem contato principal cadastrado
+    E clico em Enviar Cotação
+    Então aguardo o sistema retornar com a mensagem "Já existe uma cotação em aberto para este FC"
 
     
    # @automatizado @WIP
