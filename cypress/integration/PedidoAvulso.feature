@@ -6,7 +6,7 @@ Como comprador, desejo criar um pedido avulso.
     Contexto:  
     Dado que eu esteja com o add-in da Shopper aberto no excel e esteja logado
 
-    @automatizado
+    @automatizado @positivo
     Cenário: Realizar um pedido avaulso
     Quando clico em Pedido Avulso
     E seleciono o FC de entrega "FC1 - Osasco"
@@ -22,7 +22,6 @@ Como comprador, desejo criar um pedido avulso.
     E clico em confirmar pedido
     Então a tela me mostra o código do pedido
     E clico em concluir
-    
 
     
    # @automatizado @WIP
