@@ -1,7 +1,7 @@
 #language: pt
 @Zup @Pesquisa
-Funcionalidade: Realizar um pedido FLV
-Como comprador, desejo criar um pedido FLV.
+Funcionalidade: Atalizando Cotação
+Como comprador, desejo atalizar cotação.
 
     Contexto:  
     Dado que eu esteja com o add-in da Shopper aberto no excel e com a planilha da cotação aberto
@@ -17,9 +17,3 @@ Como comprador, desejo criar um pedido FLV.
     E seleciono os produtos 
     Então clico em enviar
     Então clico em analizar
-
-    
-   # @automatizado @WIP
-   # Cenário: Realizar uma pesquisa por categoria
-   # Quando realizo uma pesquisa por categoria
-   # Então devo visualizar a categoria corretamente
