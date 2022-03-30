@@ -15,8 +15,8 @@ Como comprador, desejo criar um pedido FLV.
     E insiro "2" no campo valor
     E insiro "3" no campo caixaria
     E seleciono os produtos 
-    Então clico em "enviar"
-    Então clico em "analizar"
+    Então clico em enviar
+    Então clico em analizar
 
     
    # @automatizado @WIP
