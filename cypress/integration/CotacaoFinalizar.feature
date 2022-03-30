@@ -9,9 +9,9 @@ Como comprador, quero finalizar uma cotação.
     @automatizado @positivo
     Cenário: Finalizar uma cotação após analisar os itens
     Quando seleciono todos os itens da tabela
-    E clico em finalizar cotação
+    E clico em "Finalizar Cotação"
     Então devo visualizar o preview do pedido com todos os itens selecionados
-    E clico em Finalizar
+    E clico em "Finalizar"
     Então devo visualizar a lista de pedidos criados
-    E clico em Finalizar
+    E clico em "Finalizar"
     Então devo voltar para a tela da análise da cotação
